@@ -4,13 +4,9 @@
 
 ## Overview
 This project uses an **HC-SR04 ultrasonic distance sensor** to measure how far an object is.  
-If the object is **closer than 20 cm**, the Arduino turns ON a **DC motor**.  
+If the object is **closer than 50 cm**, the Arduino turns ON a **DC motor**.  
 Otherwise, the motor stays OFF.  
 The system simulates an **automatic fan** or **distance-triggered machine**.
-
-## Demo
-- [ ] Insert Tinkercad simulation link here
-- [ ] Insert 1–2 min demo video link here
 
 ---
 
