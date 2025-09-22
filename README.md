@@ -49,7 +49,7 @@ The system simulates an **automatic fan** or **distance-triggered machine**.
 ```cpp
 const int trigPin = 9;
 const int echoPin = 8;
-const int motorPin = 3; // transistor base / PWM
+const int motorPin = 3; 
 
 long duration;
 int distance;
@@ -69,7 +69,6 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
-  // Read echo
   duration = pulseIn(echoPin, HIGH);
 
   // Convert to distance (cm)
